@@ -33,12 +33,19 @@ button {
     border-radius: 7px;
 }
 
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .top {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
     gap: 100px;
-    padding: 15px 80px 90px 80px;
+    padding: 1em 8em 4em 8em;
 }
 
 .logo {
@@ -76,6 +83,33 @@ button {
     align-items: center;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 120px 0;
+    gap: 40px;
+
+}
+
+.random-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.rdm-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 750px;
+    height: auto;
+}
+
 .links a, .secondary {
     font-size: 18px;
     color: #E5E7EB;
@@ -84,4 +118,12 @@ button {
 .heading-and-img, nav {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+figure div {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    background-color: white;
 }
