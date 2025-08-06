@@ -137,6 +137,28 @@ figure {
     margin-right: 5em;
 }
 
+.call-to-action {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blue-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    margin: 20px 5em;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
 .links a, .secondary {
     font-size: 18px;
     color: #E5E7EB;
