@@ -134,7 +134,7 @@ figure {
     align-self: flex-end;
     width: 250px;
     height: auto;
-    margin-right: 275px;
+    margin-right: 5em;
 }
 
 .links a, .secondary {
