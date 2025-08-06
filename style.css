@@ -148,7 +148,7 @@ figure {
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #3882F6;
-    margin: 20px 5em;
+    margin: 20px 15em;
     padding: 40px;
     border-radius: 5px;
 }
@@ -175,4 +175,13 @@ figure div {
     border: 3px solid #3882F6;
     border-radius: 10px;
     background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    color: white;
 }
